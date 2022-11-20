@@ -1,0 +1,89 @@
+main {
+  margin: 15px;
+  display: flex;
+}
+
+.atv {
+  height: 90vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trading-pairs-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 50vw;
+  position: relative;
+}
+
+.area1 {
+  background: transparent;
+  height: 45vh;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.buttons {
+  position: absolute;
+  margin-top: 0;
+}
+
+
+.area2 {
+  height: 45vh;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-component {
+  background: rgb(213, 104, 104);
+  border: none;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 8px;
+  margin: 5px;
+  max-width: 130px;
+  min-width: 130px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button-component:focus {
+  background: rgb(59, 59, 59);
+}
+
+.number-text {
+  color: rgb(59, 59, 59);
+  font-size: 4rem;
+  margin: 0;
+}
+
+.number-desc {
+  margin: 0;
+  text-align: center;
+  color: grey;
+}
+
+@media all and (max-width: 650px) {
+  main {
+    flex-direction: column;
+  }
+
+  .atv {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .trading-pairs-container {
+    width: 100%;
+    text-align: center;
+  }
+}
