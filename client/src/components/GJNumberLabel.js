@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Button } from './Button'
 import GJNumbersView from './GJNumbersView'
 
-export default function TradingPairs() {
+export default function GJNumberLabel() {
 
     const [buttonPairs, setButtonPairs] = useState([])
     const [clickedButtonPair, setClickedButtonPair] = useState('')
