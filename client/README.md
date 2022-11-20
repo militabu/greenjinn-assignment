@@ -1,5 +1,5 @@
 # Getting Started
 
-cd client
-npm install
-npm start
+1. cd client
+2. npm install
+3. npm start
